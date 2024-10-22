@@ -1,0 +1,104 @@
+[
+    {
+        "bookId": 1,
+        "bookName": "Atomic Habits",
+        "author": "James Clear",
+        "image": "https://i.ibb.co.com/5T1rqZ1/Atomic-Habits.jpg",
+        "review": "A practical guide to building good habits and breaking bad ones through small, incremental changes.",
+        "totalPages": 320,
+        "rating": 4.8,
+        "category": "Self-help",
+        "tags": [
+            "Productivity",
+            "Behavioral Science",
+            "Self-improvement"
+        ],
+        "publisher": "Avery",
+        "yearOfPublishing": 2018
+    },
+    {
+        "bookId": 2,
+        "bookName": "Educated",
+        "author": "Tara Westover",
+        "image": "https://i.ibb.co.com/bLvRJSD/Educated.jpg",
+        "review": "An inspiring memoir about the transformative power of education and resilience in the face of hardship.",
+        "totalPages": 352,
+        "rating": 4.7,
+        "category": "Memoir",
+        "tags": [
+            "Biography",
+            "Inspiration",
+            "Non-fiction"
+        ],
+        "publisher": "Random House",
+        "yearOfPublishing": 2018
+    },
+    {
+        "bookId": 3,
+        "bookName": "The Midnight Library",
+        "author": "Matt Haig",
+        "image": "https://i.ibb.co.com/9NVMy21/The-Midnight-Library.jpg",
+        "review": "A thought-provoking exploration of regrets, choices, and finding meaning in life through a fantastical library.",
+        "totalPages": 304,
+        "rating": 4.3,
+        "category": "Fantasy",
+        "tags": [
+            "Philosophical",
+            "Fantasy",
+            "Fiction"
+        ],
+        "publisher": "Canongate Books",
+        "yearOfPublishing": 2020
+    },
+    {
+        "bookId": 4,
+        "bookName": "The 7 Habits of Highly Effective People",
+        "author": "Stephen R. Covey",
+        "image": "https://i.ibb.co.com/fnwrn8S/The7-Habitsof-Highly-Effective-People.jpg",
+        "review": "A timeless guide on personal effectiveness and leadership through character-based principles.",
+        "totalPages": 381,
+        "rating": 4.6,
+        "category": "Self-help",
+        "tags": [
+            "Leadership",
+            "Productivity",
+            "Self-improvement"
+        ],
+        "publisher": "Free Press",
+        "yearOfPublishing": 1989
+    },
+    {
+        "bookId": 5,
+        "bookName": "It Ends With Us",
+        "author": "Colleen Hoover",
+        "image": "https://i.ibb.co.com/d5HTx9f/It-Ends-With-Us.jpg",
+        "review": "A heart-wrenching romance that tackles love, forgiveness, and the impact of abusive relationships.",
+        "totalPages": 376,
+        "rating": 4.4,
+        "category": "Romance",
+        "tags": [
+            "Drama",
+            "Romance",
+            "Fiction"
+        ],
+        "publisher": "Atria Books",
+        "yearOfPublishing": 2016
+    },
+    {
+        "bookId": 6,
+        "bookName": "Thinking, Fast and Slow",
+        "author": "Daniel Kahneman",
+        "image": "https://i.ibb.co.com/tqj3NCC/Thinking-Fastand-Slow.jpg",
+        "review": "An insightful exploration of human thought processes, biases, and decision-making.",
+        "totalPages": 499,
+        "rating": 4.5,
+        "category": "Non-fiction",
+        "tags": [
+            "Psychology",
+            "Behavioral Science",
+            "Cognitive Science"
+        ],
+        "publisher": "Farrar, Straus and Giroux",
+        "yearOfPublishing": 2011
+    }
+]
