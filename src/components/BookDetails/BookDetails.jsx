@@ -1,7 +1,9 @@
-import { useLoaderData, useParams } from "react-router-dom";
+import { useLoaderData, useNavigation, useParams } from "react-router-dom";
 import { saveReadBook, saveWishlistBook } from "../../utils";
+import Loader from "../Loader/Loader.jsx";
 
 const BookDetails = () => {
+    const navigation = useNavigation();
     const books = useLoaderData();
     const { id } = useParams();
     const idInt = parseInt(id);
@@ -15,6 +17,7 @@ const BookDetails = () => {
         saveWishlistBook(wishlistBook);
     }
 
+    if (navigation.state === 'loading') return <Loader />
     return (
         <div className="mt-8 mb-24 flex flex-col lg:flex-row gap-12 lg:gap-0 justify-between h-full">
             <div className="lg:w-[48%] p-[74px] bg-base-200 rounded-2xl flex justify-center items-center">
@@ -28,11 +31,11 @@ const BookDetails = () => {
                 <div className="mt-auto flex items-center">
                     <span className="font-bold text-[#131313]">Tag</span>
                     <div className="flex flex-wrap gap-3">
-                    {
-                        book.tags.map((tag, idx) => <button
-                            key={idx}
-                            className="ml-3 btn btn-xs text-prime bg-[#23BE0A0D] rounded-[30px]">#{tag}</button>)
-                    }
+                        {
+                            book.tags.map((tag, idx) => <button
+                                key={idx}
+                                className="ml-3 btn btn-xs text-prime bg-[#23BE0A0D] rounded-[30px]">#{tag}</button>)
+                        }
                     </div>
                 </div>
                 <div className="mt-6 pt-6 border-t">
