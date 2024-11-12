@@ -29,7 +29,9 @@ const Nav = () => {
                         <li><NavLink className={({ isActive }) => isActive ? 'btn btn-outline text-prime' : 'btn btn-ghost'} to='/help'>Help Center</NavLink></li>
                     </ul>
                 </div>
-                <Link to='/' className="btn btn-ghost text-[28px] font-bold hidden sm:inline">Book Vibe</Link>
+                <div className='hidden sm:inline'>
+                    <Link to='/' className="btn btn-ghost text-[28px] font-bold">Book Vibe</Link>
+                </div>
             </div>
             <div className="navbar-center hidden xl:flex">
                 <ul className="menu menu-horizontal px-1# gap-1">
